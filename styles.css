@@ -29,6 +29,11 @@ body {
   font-family: "Inter", serif;
 }
 
+h2 {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+}
+
 .card {
   transition: transform 0.3s;
 }
