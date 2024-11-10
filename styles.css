@@ -10,7 +10,7 @@ body {
   font-weight: bold;
 }
 .hero {
-  background-image: url("/public/portada.webp");
+  background-image: url("public/portada.webp");
   background-size: cover;
   background-position: center;
   height: 600px;
