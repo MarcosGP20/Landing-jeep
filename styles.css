@@ -29,6 +29,11 @@ body {
   font-family: "Inter", serif;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 h2 {
   font-family: "Roboto", serif;
   font-weight: 500;
