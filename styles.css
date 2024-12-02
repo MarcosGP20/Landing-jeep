@@ -45,3 +45,10 @@ h2 {
 .card:hover {
   transform: translateY(-5px);
 }
+
+.maps-ubication {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
