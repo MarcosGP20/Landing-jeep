@@ -270,61 +270,66 @@
         </gmp-map>
       </div>
       <div class="container py-4">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-md-6">
-              <h4>Horarios de atención</h4>
-              <p>Lunes - Viernes: 9:00 AM - 6:00 PM</p>
-              <p>Sábado: 10:00 AM - 1:00 PM</p>
-              <p>Domingo: Cerrado</p>
+        <div class="container"></div>
+      </div>
+    </section>
+    <section id="contacto" class="py-5">
+      <h2 class="text-center mb-4">Contacto</h2>
+
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column"
+      >
+        <h4>Horarios de atención</h4>
+        <p class="text-muted">Lunes - Viernes: 9:00 AM - 6:00 PM</p>
+        <p class="text-muted">Sábado: 10:00 AM - 1:00 PM</p>
+        <p class="text-muted">Domingo: Cerrado</p>
+
+        <div class="text-center mt-4">
+          <a href="tel:+123456789" class="btn btn-primary mx-2">Llamar Ahora</a>
+          <a
+            href="https://wa.me/123456789"
+            target="_blank"
+            class="btn btn-success mx-2"
+            >WhatsApp</a
+          >
+        </div>
+
+        <div class="container mt-4">
+          <h4 class="text-center">Envíanos un mensaje</h4>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Tu Nombre"
+              />
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Tu Email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Escribe tu mensaje aquí"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          </form>
         </div>
       </div>
     </section>
-    <!-- <section id="contact">
-      <h3 class="text-center py-5">Mandanos tu consulta!</h3>
-      <div class="container align-items-center">
-        <form class="w-50">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-              >Password</label
-            >
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-            />
-          </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Check me out</label
-            >
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </section> -->
-    <section id="contacto"></section>
+
     <footer class="bg-dark text-light py-4">
       <div class="container text-center">
         <p>&copy; Marcos Pinto 2024</p>
