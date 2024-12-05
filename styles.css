@@ -10,6 +10,7 @@ body {
   font-weight: bold;
 }
 .hero {
+  background-image: url(public/portada.webp);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +18,6 @@ body {
   text-align: center;
   font-family: "Roboto", serif;
   position: relative;
-
   width: 100%;
   height: 100vh; /* Toda la altura del viewport */
   overflow: hidden;
