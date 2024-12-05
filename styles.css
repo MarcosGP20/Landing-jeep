@@ -10,25 +10,16 @@ body {
   font-weight: bold;
 }
 .hero {
-  background-image: url(public/portada.webp);
+  background-image: url("public/portada.webp");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
   font-family: "Roboto", serif;
-  position: relative;
-  width: 100%;
-  height: 100vh; /* Toda la altura del viewport */
-  overflow: hidden;
-}
-
-.hero-img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1; /* Envía la imagen detrás del contenido */
-  display: block;
 }
 
 .hero h1 {
